@@ -585,8 +585,15 @@ footer a:hover{
 
 /* Medias Queries*/
 
+@media screen and (max-width : 1440px) {
+    body{
+        display: block;
+    }
+}
+
 /* Tablettes */
 @media screen and (max-width: 991px){
+
     .search_filter{
         flex-wrap: wrap;
     }
