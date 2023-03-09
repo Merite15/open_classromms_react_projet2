@@ -1,1 +1,1 @@
-# Projet 2 FormatioN React open Classrooms
+# Projet 2 Formation React Open Classrooms

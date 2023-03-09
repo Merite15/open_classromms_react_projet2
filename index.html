@@ -159,6 +159,7 @@
                     </div>
                   </div>
                 </a>
+                
                 <a class="hosting_link" href="#">
                   <div class="hosting_card">
                     <img
@@ -348,56 +349,55 @@
           </section>
 
           <!-- activity  -->
-          <section id="activity" class="activity_section mobile-py-20">
-            <div class="activity_wrapper">
-              <div class="activity_header">
-                <h3>Activités à Marseille</h3>
-              </div>
+          <section id="activity" class="activity-section mobile-py-20">
+            <h3 class="activity__title">Activités à Marseille</h3>
 
-              <div class="activity_cards">
-                <a class="activity_link activity-column" href="#">
-                  <div class="activity_card_big">
-                    <img
-                      class="activity_card_img_big"
-                      src="./images/activites/reno-laithienne.jpg"
-                      alt="Image du Vieux Port de Marseille"
-                    />
-                    <h3 class="activity_card_title">Vieux Port</h3>
-                  </div>
-                </a>
-                <a class="activity_link activity-column" href="#">
-                  <div class="activity_card_big">
-                    <img
-                      class="activity_card_img_big"
-                      src="./images/activites/paul-hermann.jpg"
-                      alt="Image du Fort de Pomègues"
-                    />
-                    <h3 class="activity_card_title">Fort de Pomègues</h3>
-                  </div>
-                </a>
-                <a class="activity_link activity-column" href="#">
-                  <div class="activity_card_big">
-                    <img
-                      class="activity_card_img_big"
-                      src="./images/activites/kilyan-sockalingum.jpg"
-                      alt="Image du Parc National des Calanques"
-                    />
-                    <h3 class="activity_card_title">
-                      Parc National des Calanques
-                    </h3>
-                  </div>
-                </a>
-                <a class="activity_link activity-column" href="#">
-                  <div class="activity_card_big">
-                    <img
-                      class="activity_card_img_big"
-                      src="./images/activites/florian-wehde.jpg"
-                      alt="Image de Notre-Dame-De-La-Garde"
-                    />
-                    <h3 class="activity_card_title">Notre-Dame-De-La-Garde</h3>
-                  </div>
-                </a>
-              </div>
+            <div class="activity-card">
+              <a class="activity-card__link activity-card__column" href="#">
+                <div class="activity-card__content">
+                  <img
+                    class="activity-card__img"
+                    src="./images/activites/reno-laithienne.jpg"
+                    alt="Image du Vieux Port de Marseille"
+                  />
+                  <h3 class="activity-card__title">Vieux Port</h3>
+                </div>
+              </a>
+
+              <a class="activity-card__link activity-card__column" href="#">
+                <div class="activity-card__content">
+                  <img
+                    class="activity-card__img"
+                    src="./images/activites/paul-hermann.jpg"
+                    alt="Image du Fort de Pomègues"
+                  />
+                  <h3 class="activity-card__title">Fort de Pomègues</h3>
+                </div>
+              </a>
+
+              <a class="activity-card__link activity-card__column" href="#">
+                <div class="activity-card__content">
+                  <img
+                    class="activity-card__img"
+                    src="./images/activites/kilyan-sockalingum.jpg"
+                    alt="Image du Parc National des Calanques"
+                  />
+                  <h3 class="activity-card__title">
+                    Parc National des Calanques
+                  </h3>
+                </div>
+              </a>
+
+              <a class="activity-card__link activity-card__column" href="#">
+                <div class="activity-card__content">
+                  <img
+                    class="activity-card__img"
+                    src="./images/activites/florian-wehde.jpg"
+                    alt="Image de Notre-Dame-De-La-Garde"
+                  />
+                  <h3 class="activity-card__title">Notre-Dame-De-La-Garde</h3>
+                </div>
+              </a>
             </div>
           </section>
         </div>
@@ -407,33 +407,35 @@
       <footer class="container">
         <section class="footer_section mobile-py-20 bg-gray">
           <div class="container mobile-py-20">
-            <div class="ft-main">
-              <div class="ft-items">
-                <h2 class="ft-title">A propos</h2>
+            <div class="ft__main">
+              <div class="ft__items">
+                <h2 class="ft__title">A propos</h2>
                 <ul>
                   <li>
-                    <a class="ft-links" href="#">Fonctionnement du site</a>
+                    <a class="ft__links" href="#">Fonctionnement du site</a>
                   </li>
-                  <li><a class="ft-links" href="#">Conditions générales</a></li>
                   <li>
-                    <a class="ft-links" href="#">Données et confidentialité</a>
+                    <a class="ft__links" href="#">Conditions générales</a>
                   </li>
-                </ul>
-              </div>
-              <div class="ft-items">
-                <h2 class="ft-title">Nos hébergements</h2>
-                <ul>
-                  <li><a class="ft-links" href="#">Charte qualité</a></li>
                   <li>
-                    <a class="ft-links" href="#">Soumettre votre hôtel</a>
+                    <a class="ft__links" href="#">Données et confidentialité</a>
                   </li>
                 </ul>
               </div>
-              <div class="ft-items">
-                <h2 class="ft-title">Assistance</h2>
+              <div class="ft__items">
+                <h2 class="ft__title">Nos hébergements</h2>
                 <ul>
-                  <li><a class="ft-links" href="#">Centre d'aide</a></li>
-                  <li><a class="ft-links" href="#">Nous contacter</a></li>
+                  <li><a class="ft__links" href="#">Charte qualité</a></li>
+                  <li>
+                    <a class="ft__links" href="#">Soumettre votre hôtel</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="ft__items">
+                <h2 class="ft__title">Assistance</h2>
+                <ul>
+                  <li><a class="ft__links" href="#">Centre d'aide</a></li>
+                  <li><a class="ft__links" href="#">Nous contacter</a></li>
                 </ul>
               </div>
             </div>
