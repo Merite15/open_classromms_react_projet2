@@ -41,68 +41,80 @@
       <main class="container">
         <div>
           <!-- Search Form -->
-          <section class="search_section mobile-py-20">
-            <div class="search_wrapper">
-              <div class="search_header">
-                <h1 class="search_header_title">
-                  Trouvez votre hébergement pour des vacances de rêve
-                </h1>
-                <p class="search_header_subtitle">
-                  En plein centre ville ou en pleine nature
-                </p>
+          <section class="search-section mobile-py-20">
+            <div class="search-header">
+              <h1 class="search-header__title">
+                Trouvez votre hébergement pour des vacances de rêve
+              </h1>
+              <p>En plein centre-ville ou en pleine nature</p>
+            </div>
+
+            <!-- search form -->
+            <form class="search-form">
+              <div class="search-form__icon">
+                <i class="fas fa-map-marker-alt"></i>
               </div>
-              <form class="search_form">
-                <div class="search_form_wrapper-icon">
-                  <i class="fas fa-map-marker-alt"></i>
-                </div>
-                <input
-                  type="text"
-                  class="search_form_search-input"
-                  placeholder="Marseille, France"
-                />
-                <button class="search_form_button font-raleway">
-                  Rechercher
-                </button>
-                <button class="search_form_button_icon">
-                  <i class="fas fa-search"></i>
-                </button>
-              </form>
-              <!-- Filters -->
-              <div class="search_filter">
-                <h3 class="search_filter_header">Filtres</h3>
-                <div class="filter_wrapper-button">
-                  <div class="filter_wrapper-icon">
+
+              <input
+                type="text"
+                class="search-form__input"
+                placeholder="Marseille, France"
+              />
+
+              <button class="search-form__button font-raleway">
+                Rechercher
+              </button>
+
+              <button class="search_form_button_icon">
+                <i class="fas fa-search"></i>
+              </button>
+            </form>
+
+            <!-- Filters -->
+            <div class="search-filter">
+              <h3 class="search-filter__header">Filtres</h3>
+
+              <div class="search-card">
+                <div class="search-filter__button">
+                  <div class="search-filter__button_icon">
                     <i class="fas fa-money-bill-wave"></i>
                   </div>
-                  <span class="filter_title">Économique</span>
+                  <span class="search-filter__button_title">Économique</span>
                 </div>
-                <div class="filter_wrapper-button">
-                  <div class="filter_wrapper-icon">
+
+                <div class="search-filter__button">
+                  <div class="search-filter__button_icon">
                     <i class="fas fa-child"></i>
                   </div>
-                  <span class="filter_title">Familial</span>
+                  <span class="search-filter__button_title">Familial</span>
                 </div>
-                <div class="filter_wrapper-button">
-                  <div class="filter_wrapper-icon">
+
+                <div class="search-filter__button">
+                  <div class="search-filter__button_icon">
                     <i class="fas fa-heart"></i>
                   </div>
-                  <span class="filter_title">Romantique</span>
+                  <span class="search-filter__button_title">Romantique</span>
                 </div>
-                <div class="filter_wrapper-button filter_wrapper-button-active">
-                  <div class="filter_wrapper-icon">
+
+                <div
+                  class="search-filter__button search-filter__button--active"
+                >
+                  <div class="search-filter__button_icon">
                     <i class="fas fa-fire"></i>
                   </div>
-                  <span class="filter_title">Nos pépites</span>
+                  <span class="search-filter__button_title">Nos pépites</span>
                 </div>
               </div>
-              <div class="search_info">
-                <div class="info_wrapper-icon">
-                  <i class="fas fa-info"></i>
-                </div>
-                <p class="info_text">
-                  Plus de 500 logements sont disponibles dans cette ville
-                </p>
+            </div>
+
+            <!-- search info -->
+            <div class="search-info">
+              <div class="search-info__icon">
+                <i class="fas fa-info"></i>
               </div>
+              <p class="search-info__text">
+                Plus de 500 logements sont disponibles dans cette ville
+              </p>
             </div>
           </section>
 
@@ -159,7 +171,7 @@
                     </div>
                   </div>
                 </a>
-                
+
                 <a class="hosting_link" href="#">
                   <div class="hosting_card">
                     <img
